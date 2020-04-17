@@ -1,0 +1,25 @@
+{
+  "name": "umbra-example",
+  "version": "0.0.1",
+  "description": "An example usage of Umbra",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc -p tsconfig-test.json && npx umbra"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbra-test/umbra-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umbra-test/umbra-example/issues"
+  },
+  "homepage": "https://github.com/umbra-test/umbra-example#readme",
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "argparse": "^1.0.10",
+    "umbra-test": "^0.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+.nyc_output/*
+lib/tests/
+coverage/*
+node_modules/*
+.umbra-cache
